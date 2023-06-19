@@ -1,0 +1,56 @@
+* {margin: 0;	padding: 0;list-style: none;outline: none;	border: 0;background: none;
+}
+body {font-size: 14px;	font-family: "微软雅黑";}
+a:link,a:visited {color: #000000;text-decoration: none;}
+a:hover {text-decoration: none;}
+h2{margin-left: 20px;margin-top: 20px;}
+
+ul{
+    position: absolute;
+    top: 47px;
+    left: 788px;
+}
+li{
+    width: 100px;
+    height: 160px;
+}
+li a{
+    width: 60px;
+    height: 40px;
+    left: 50%;
+    top: 50%;
+    margin-left: -30px;
+    margin-top: -20px;
+    position: relative;
+
+}
+li:nth-child(1){
+    background-color: orange;
+}
+li:nth-child(2){
+    background-color: rgb(92, 244, 255);
+}
+li:nth-child(3){
+    background-color: yellowgreen;
+}
+#SwitchBigPic{
+    width: 778px;
+}
+img{
+    width: 768px;
+    height: 480px;
+}
+
+span{
+    display: none;
+}
+.sp{
+    margin-left: 10px;
+    display: block;
+}
+li:hover{
+    background-color: rgb(255, 255, 255,0.6);
+}
+li:hover a{
+    color: blueviolet;
+}

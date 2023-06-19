@@ -1,0 +1,12 @@
+ul li{
+    display: inline;
+}
+ul li:first-child{
+    color: aqua;
+}
+ul li:nth-child(5){
+    color: brown;
+}
+ul li:last-child{
+    color: red;
+}

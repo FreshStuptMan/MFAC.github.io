@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+.content{
+    background-color: rgb(247, 242, 236);
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -400px;
+}
+
+.menu_one{
+    width: 400px;
+}
+.content a{
+    font-size: 30px;
+    color: aquamarine;
+    display: block;
+    width: 400px;
+    height: 40px;
+    text-decoration: none;
+    background-color: bisque;
+}
+
+.content p{
+    margin: 0;
+    height: 0;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+p:target{
+    height: 35px;
+    background-color: rgb(247, 242, 236);
+    overflow: auto;
+}
+
+.content a:hover{
+    background-color: azure;
+    color: rgb(55, 152, 236);
+}
+

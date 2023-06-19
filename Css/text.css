@@ -1,0 +1,34 @@
+a{
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    width: 120px;
+    text-align: center;
+    transition: all 1s;
+}
+img{
+    max-width: 150px;
+    max-height: 250px;
+    box-shadow: 0 0 25px #000000;
+}
+figure:hover a{
+    width: 100px;
+}
+figure a:hover{
+    width: 150px;
+}
+
+figure{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    border-style: solid;
+    background-color: aliceblue;
+    border-color: aliceblue;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+

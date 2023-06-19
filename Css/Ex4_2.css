@@ -1,0 +1,34 @@
+
+
+body{
+    background-color: rgb(8, 24, 71);
+}
+h3{
+    font-family: 楷体;
+   color: #ffffff;
+}
+/* div{
+    font-size: 0px;
+} */
+ul{
+    background-color: bisque;
+    width: 1397px;
+    font-size: 0px;
+    padding-left: 0px;
+}
+ul li{
+    width: 125px;
+    height: 30px;
+    background-color: aliceblue;
+    font-family: 楷体;
+    font-size: 25px;
+    list-style-type: none;
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+.listH{
+    background-color: #f3ca00;
+    font-weight: 600;
+}

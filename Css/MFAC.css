@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to bottom right, rgb(247, 247, 247),rgb(164, 193, 218));
+}
+
+
+.head{
+    margin-top: 0%;
+    /* background-image: linear-gradient(to bottom right, rgb(130, 243, 241), rgb(247, 247, 247)); */
+}
+
+#WebIntroduce{
+    text-align: center;
+    list-style-type: none;;
+}
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+
+.MyIntroduceAndFC{
+    border-style: solid;
+    border-color: black;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+.MyIntroduce{
+    float: left;
+    margin-top: 0%;
+    width: 40%;
+    height: 500px;
+    border-style: solid;
+    border-color: rgb(197, 222, 60);
+}
+.FC{
+    float: right;
+    width: 60%;
+    height: 500px;
+    margin-top: 0%;
+    border-style: solid;
+    border-color: rgb(197, 222, 60);
+}
+.StupidShit{
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    height: 600px;
+}
+
+
+
+
+#C-h1-1{
+    text-align: center;
+    font-weight: bold;
+    font-family: 宋体;
+}
+/* 导航栏 */
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position:-webkit-sticky;
+    position: sticky;
+    top:0;
+    background-color: aquamarine;
+    background-image: linear-gradient(to bottom right, rgb(164, 193, 218), rgb(247, 247, 247));
+}
+.nav li{
+    float: left;
+    display: inline;
+}
+.nav li a{
+    display: block;
+    color: rgb(3, 2, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav li a:hover{
+    background-color: azure;
+}
+/* 神乐(犬夜叉) */
+#ShenLeFromQuanYeCha{
+    border-style: solid;
+    border-color: black;
+    height: 1000px;
+    overflow: hidden;
+}
+
+.ShenLeFormQuanYeChaHeadImgAndName{
+    border-style: solid;
+    border-color: black;
+    width: 30%;
+    height: 800px;
+    float: left;
+}
+
+.ShenLeFromQuanYeChaIntroduce{
+    border-style: solid;
+    border-color: black;
+    width: 30%;
+    height: 800px;
+    float: left;
+}
+.ShenLeFromQuanYeChaBackground{
+    border-style: solid;
+    border-color: black;
+    height: 800px;
+    width: 40%;
+    float: right;
+}
+.ShenLeFromQuanYeChaPhoto
+{
+    
+}
+
+/* 图片缩放 */
+#ShenLeFromQuanYeChaImg1{
+    border-style: solid;
+    border-color: black;
+}
+

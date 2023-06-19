@@ -1,0 +1,24 @@
+img{
+    position: absolute;
+    width: 180px;
+    height: 225px;
+    left: 50%;
+    top: 50%;
+    margin-top: -90px;
+    margin-left: -112.5px;
+    box-shadow: .8em .8em .8em #130c0e;
+    border-style: solid;
+    border-color: aquamarine;
+}
+
+.Menu::after{
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom: 10px solid aquamarine;
+    position: relative;
+    left: 150px;
+    top:-31px
+}

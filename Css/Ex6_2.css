@@ -1,0 +1,32 @@
+
+body{
+    background-color: rosybrown;
+}
+img{
+    width: 400px;
+    height: 250px;
+}
+.phes{
+    width: 7200px;
+    animation: switch 12s ease-out infinite;
+}
+@keyframes switch{
+    0%{
+        margin-left: 0;
+    }
+    20%{
+        margin-left: -1200px;
+    }
+    40%{
+        margin-left: -2400px;
+    }
+    60%{
+        margin-left: -3600px;
+    }
+    80%{
+        margin-left: -4800px;
+    }
+    100%{
+        margin-left: -6000px;
+    }
+}
